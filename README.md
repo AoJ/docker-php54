@@ -3,6 +3,7 @@
 - nginx with php fpm
 - php version 5.4
 - included php extension: imagick, gd, curl, apc, mysql, mcrypt
+- ca.crt is dumped in docker log or the cert is in localhost/ca.crt
 
 ## Usage
 
@@ -26,4 +27,5 @@
 - tuneup nginx config
     
 ## Changelog
+- 1.1 add ssl
 - 1.0 first realese

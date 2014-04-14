@@ -8,7 +8,7 @@
 
 
 NAME=aooj/php54
-VERSION=1.0
+VERSION=1.1
 
 
 build:
@@ -16,10 +16,10 @@ build:
 
 
 run:
-	docker run -p 80 -t -i $(NAME):$(VERSION)
+	docker run -p 80 -p 443 -t -i $(NAME):$(VERSION)
 
 debug: build
-	docker run -p 80 -t -i $(NAME):$(VERSION) /bin/bash	
+	docker run -p 80 -p 443 -t -i $(NAME):$(VERSION) /bin/bash	
 
 
 ssh:
