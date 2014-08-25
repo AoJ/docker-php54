@@ -22,7 +22,6 @@ mkdir -p /etc/nginx/certs
 cp server.crt /etc/nginx/certs/server.crt
 cp server.key /etc/nginx/certs/server.key
 cp ca.crt /etc/nginx/certs/ca.crt
-cp ca.crt /var/www/ca.crt
 
 echo "====>>> CA CERT <<<====="
 echo ""

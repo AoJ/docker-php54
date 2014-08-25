@@ -1,6 +1,6 @@
 # Docker php54
 #
-# veresion 1.1
+# veresion 1.2
 
 FROM aooj/base:latest
 
