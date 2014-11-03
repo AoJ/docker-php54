@@ -14,7 +14,7 @@ RUN apt-get -y install  nginx php5-fpm php5-mysql php-apc php5-cli php5-cgi php-
 
 ADD files/nginx/default /etc/nginx/sites-available/default
 RUN echo "daemon off;" >> /etc/nginx/nginx.conf
-RUN mkdir /var/www
+RUN mkdir -p /var/www
 RUN echo "<?php phpinfo(); ?>" > /var/www/index.php
 
 
